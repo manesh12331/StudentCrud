@@ -25,6 +25,7 @@ public class ProductController {
 
     @GetMapping("/employees")
     public List<Product> getAllProducts(){
+        System.out.println("master branch");
         return productReository.findAll();
 
     }
